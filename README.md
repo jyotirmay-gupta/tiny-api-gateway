@@ -2,6 +2,15 @@
 
 **© 2025 Jyotirmay Gupta**
 
+[![Build Status](https://github.com/jyotirmay-gupta/tiny-api-gateway/actions/workflows/maven.yml/badge.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/actions/workflows/maven.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/commits)
+[![Contributors](https://img.shields.io/github/contributors/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/graphs/contributors)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-v3.5.3-brightgreen)](https://spring.io/projects/spring-boot)
+[![Spring Cloud Gateway](https://img.shields.io/badge/Spring%20Cloud%20Gateway-v2025.0.0-brightgreen)](https://spring.io/projects/spring-cloud-gateway)
+[![Java](https://img.shields.io/badge/Java-21-brightgreen)](https://www.oracle.com/java/)
+
 **Project:** Tiny API Gateway  
 **Description:** This is a personal Spring Cloud API Gateway implementation by Jyotirmay Gupta. It serves as a reactive, non-blocking entry point for routing and filtering HTTP requests to microservices using Spring Cloud Gateway and WebFlux.
 

@@ -7,13 +7,15 @@ spring:
 
   cloud:
     gateway:
-      routes:
-        - id: user-service
-          uri: http://localhost:8081
-          predicates:
-            - Path=/users/**
+      server:
+        webflux:
+          routes:
+          - id: tiny-url-service
+            uri: http://localhost:8081
+            predicates:
+              - Path=/tiny/url/**
 
-        - id: order-service
-          uri: http://localhost:8082
-          predicates:
-            - Path=/orders/**
+          - id: order-service
+            uri: http://localhost:8082
+            predicates:
+              - Path=/orders/**
