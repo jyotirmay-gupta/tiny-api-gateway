@@ -15,7 +15,7 @@ spring:
             predicates:
               - Path=/tiny/url/**
 
-          - id: order-service
+          - id: user-identity-service
             uri: http://localhost:8082
             predicates:
-              - Path=/orders/**
+              - Path=/user/identity/**
