@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/stargazers)
 [![GitHub commits](https://img.shields.io/github/commit-activity/y/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/commits)
-[![Total Commits](https://img.shields.io/github/commits-since/jyotirmay-gupta/tiny-api-gateway/0.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/commits)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/commits)
 [![Contributors](https://img.shields.io/github/contributors/jyotirmay-gupta/tiny-api-gateway.svg)](https://github.com/jyotirmay-gupta/tiny-api-gateway/graphs/contributors)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-v3.5.3-brightgreen)](https://spring.io/projects/spring-boot)
