@@ -1,40 +1,7 @@
-server:
-  port: 8080
-
 spring:
   application:
-    name: api-gateway
-
-  data:
-    redis:
-      host: localhost
-      port: 6379
-      username: redis
-      password: password
-
-  cloud:
-    gateway:
-      server:
-        webflux:
-          routes:
-          - id: tiny-url-service
-            uri: http://localhost:8081
-            predicates:
-              - Path=/tiny/url/**
-            filters:
-              - name: RequestRateLimiter
-                args:
-                  redis-rate-limiter.replenishRate: 1       # tokens per second
-                  redis-rate-limiter.burstCapacity: 0      # burst tokens - replenishes token after giving 429 Too Many Requests error.
-                  keyResolver: "#{@ipKeyResolver}"         # resolve key
-
-          - id: user-identity-service
-            uri: http://localhost:8082
-            predicates:
-              - Path=/user/identity/**
-            filters:
-              - name: RequestRateLimiter
-                args:
-                  redis-rate-limiter.replenishRate: 1       # tokens per second
-                  redis-rate-limiter.burstCapacity: 0      # burst tokens - replenishes token after giving 429 Too Many Requests error.
-                  keyResolver: "#{@ipKeyResolver}"         # resolve key
+    name: tiny-api-gateway
+  profiles:
+    active: dev
+  config:
+    import: optional:configserver:http://tinyconfiguser:password@localhost:8888
