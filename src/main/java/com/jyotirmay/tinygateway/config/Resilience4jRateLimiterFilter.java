@@ -1,4 +1,4 @@
-package com.redashwood.tinygateway.config;
+package com.jyotirmay.tinygateway.config;
 
 import io.github.resilience4j.ratelimiter.RateLimiter;
 import io.github.resilience4j.ratelimiter.RateLimiterRegistry;

@@ -8,7 +8,7 @@
         <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.redashwood</groupId>
+    <groupId>com.jyotirmay</groupId>
     <artifactId>tiny-api-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>tiny-api-gateway</name>

@@ -1,4 +1,4 @@
-package com.redashwood.tinygateway;
+package com.jyotirmay.tinygateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

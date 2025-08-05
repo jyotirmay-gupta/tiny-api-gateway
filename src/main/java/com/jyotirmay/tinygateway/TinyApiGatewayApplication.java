@@ -1,4 +1,4 @@
-package com.redashwood.tinygateway;
+package com.jyotirmay.tinygateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
